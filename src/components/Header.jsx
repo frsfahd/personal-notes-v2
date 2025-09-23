@@ -13,7 +13,7 @@ const Header = ({ handlerSearchAction }) => {
   };
   return (
     <header className="note-app__header">
-      <h1>Notes v2.1</h1>
+      <h1>Notes v2.2</h1>
       <form action="" className="note-search">
         <input onChange={handlerSearch} value={query} type="text" placeholder="cari catatan..." />
       </form>
